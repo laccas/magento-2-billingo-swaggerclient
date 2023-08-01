@@ -1,6 +1,7 @@
 {
     "name": "tlsoft/billingo-swaggerclient",
     "version": "0.0.1",
+    "minimum-stability":"dev",
     "description": "",
     "keywords": [
         "swagger",
