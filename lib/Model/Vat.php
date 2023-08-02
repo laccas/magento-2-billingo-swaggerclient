@@ -91,14 +91,14 @@ class Vat
     public static function getAllowableEnumValues()
     {
         return [
-            self::_0
-            self::_1
-            self::_10
-            self::_11
-            self::_12
-            self::_13
-            self::_14
-            self::_15
+            self::_0,
+            self::_1,
+            self::_10,
+            self::_11,
+            self::_12,
+            self::_13,
+            self::_14,
+            self::_15,
             self::_16
             self::_17
             self::_18
