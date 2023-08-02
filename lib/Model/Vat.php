@@ -99,40 +99,40 @@ class Vat
             self::_13,
             self::_14,
             self::_15,
-            self::_16
-            self::_17
-            self::_18
-            self::_19
-            self::_2
-            self::_20
-            self::_21
-            self::_22
-            self::_23
-            self::_24
-            self::_25
-            self::_26
-            self::_27
-            self::_3
-            self::_4
-            self::_5
-            self::_55
-            self::_6
-            self::_7
-            self::_77
-            self::_8
-            self::_9
-            self::_95
-            self::AAM
-            self::AM
-            self::EU
-            self::EUK
-            self::FAFA
-            self::FAD
-            self::KAFA
-            self::MAA
-            self::TAM
-            self::KK
-            self::THK
+            self::_16,
+            self::_17,
+            self::_18,
+            self::_19,
+            self::_2,
+            self::_20,
+            self::_21,
+            self::_22,
+            self::_23,
+            self::_24,
+            self::_25,
+            self::_26,
+            self::_27,
+            self::_3,
+            self::_4,
+            self::_5,
+            self::_55,
+            self::_6,
+            self::_7,
+            self::_77,
+            self::_8,
+            self::_9,
+            self::_95,
+            self::AAM,
+            self::AM,
+            self::EU,
+            self::EUK,
+            self::FAFA,
+            self::FAD,
+            self::KAFA,
+            self::MAA,
+            self::TAM,
+            self::KK,
+            self::THK,
         ];
     }
 }
