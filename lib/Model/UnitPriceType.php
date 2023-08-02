@@ -51,8 +51,8 @@ class UnitPriceType
     public static function getAllowableEnumValues()
     {
         return [
-            self::GROSS
-            self::NET
+            self::GROSS,
+            self::NET,
         ];
     }
 }
