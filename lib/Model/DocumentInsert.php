@@ -152,7 +152,7 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'advance_invoice' => 'advance_invoice',
         'discount' => 'discount',
         'instant_payment' => 'instant_payment',
-        'address' => '\Swagger\Client\Model\Address',
+        'address' => 'address',
     ];
 
     /**
