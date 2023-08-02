@@ -149,7 +149,8 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'settings' => 'settings',
         'advance_invoice' => 'advance_invoice',
         'discount' => 'discount',
-        'instant_payment' => 'instant_payment'
+        'instant_payment' => 'instant_payment',
+        'address' => '\Swagger\Client\Model\Address',
     ];
 
     /**
@@ -176,7 +177,8 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'settings' => 'setSettings',
         'advance_invoice' => 'setAdvanceInvoice',
         'discount' => 'setDiscount',
-        'instant_payment' => 'setInstantPayment'
+        'instant_payment' => 'setInstantPayment',
+        'address' => 'setAddress'
     ];
 
     /**
@@ -203,7 +205,8 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'settings' => 'getSettings',
         'advance_invoice' => 'getAdvanceInvoice',
         'discount' => 'getDiscount',
-        'instant_payment' => 'getInstantPayment'
+        'instant_payment' => 'getInstantPayment',
+        'address' => 'getAddress'
     ];
 
     /**
@@ -283,6 +286,7 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         $this->container['advance_invoice'] = isset($data['advance_invoice']) ? $data['advance_invoice'] : null;
         $this->container['discount'] = isset($data['discount']) ? $data['discount'] : null;
         $this->container['instant_payment'] = isset($data['instant_payment']) ? $data['instant_payment'] : null;
+        $this->container['address'] = isset($data['address']) ? $data['address'] : null;
     }
 
     /**
@@ -317,6 +321,9 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         }
         if ($this->container['currency'] === null) {
             $invalidProperties[] = "'currency' can't be null";
+        }
+        if ($this->container['address'] === null) {
+            $invalidProperties[] = "'address' can't be null";
         }
         return $invalidProperties;
     }
@@ -380,6 +387,31 @@ class DocumentInsert implements ModelInterface, ArrayAccess
 
         return $this;
     }
+
+    /**
+     * Gets address
+     *
+     * @return int
+     */
+    public function getAddress()
+    {
+        return $this->container['address'];
+    }
+
+    /**
+     * Sets address
+     *
+     * @param int $address address
+     *
+     * @return $this
+     */
+    public function setAddress($address)
+    {
+        $this->container['address'] = $address;
+
+        return $this;
+    }
+
 
     /**
      * Gets block_id
