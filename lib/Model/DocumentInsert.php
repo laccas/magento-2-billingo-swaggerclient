@@ -74,7 +74,8 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'settings' => '\Swagger\Client\Model\DocumentSettings',
         'advance_invoice' => 'int[]',
         'discount' => '\Swagger\Client\Model\Discount',
-        'instant_payment' => 'bool'
+        'instant_payment' => 'bool',
+        'address' => '\Swagger\Client\Model\Address'
     ];
 
     /**
@@ -101,7 +102,8 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'settings' => null,
         'advance_invoice' => null,
         'discount' => null,
-        'instant_payment' => null
+        'instant_payment' => null,
+        'address' => '\Swagger\Client\Model\Address'
     ];
 
     /**
