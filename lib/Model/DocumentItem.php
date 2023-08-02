@@ -58,6 +58,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'product_id' => 'int',
         'name' => 'string',
+        'unit_price_type'=> '\Swagger\Client\Model\UnitPriceType',
         'net_unit_amount' => 'float',
         'quantity' => 'float',
         'unit' => 'string',
@@ -77,6 +78,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
     protected static $swaggerFormats = [
         'product_id' => null,
         'name' => null,
+        'unit_price_type' => null,
         'net_unit_amount' => 'float',
         'quantity' => 'float',
         'unit' => null,
@@ -117,6 +119,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
     protected static $attributeMap = [
         'product_id' => 'product_id',
         'name' => 'name',
+        'unit_price_type' => 'unit_price_type',
         'net_unit_amount' => 'net_unit_amount',
         'quantity' => 'quantity',
         'unit' => 'unit',
@@ -137,6 +140,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'product_id' => 'setProductId',
         'name' => 'setName',
         'net_unit_amount' => 'setNetUnitAmount',
+        'unit_price_type' => 'setUnitPriceType',
         'quantity' => 'setQuantity',
         'unit' => 'setUnit',
         'net_amount' => 'setNetAmount',
@@ -155,6 +159,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
     protected static $getters = [
         'product_id' => 'getProductId',
         'name' => 'getName',
+        'unit_price_type' => 'getUnitPriceType',
         'net_unit_amount' => 'getNetUnitAmount',
         'quantity' => 'getQuantity',
         'unit' => 'getUnit',
@@ -235,6 +240,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         $this->container['vat_amount'] = isset($data['vat_amount']) ? $data['vat_amount'] : null;
         $this->container['entitlement'] = isset($data['entitlement']) ? $data['entitlement'] : null;
         $this->container['comment'] = isset($data['comment']) ? $data['comment'] : null;
+        $this->container['unit_price_type'] = isset($data['unit_price_type']) ? $data['unit_price_type'] : null;
     }
 
     /**
@@ -281,6 +287,30 @@ class DocumentItem implements ModelInterface, ArrayAccess
     public function setProductId($product_id)
     {
         $this->container['product_id'] = $product_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets product_id
+     *
+     * @return int
+     */
+    public function getUnitPriceType()
+    {
+        return $this->container['unit_price_type'];
+    }
+
+    /**
+     * Sets unit_price_type
+     *
+     * @param int $unit_price_type unit_price_type
+     *
+     * @return $this
+     */
+    public function setUnitPriceType($unit_price_type)
+    {
+        $this->container['unit_price_type'] = $unit_price_type;
 
         return $this;
     }
