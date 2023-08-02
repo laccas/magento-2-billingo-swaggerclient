@@ -58,15 +58,15 @@ class DocumentLanguage
     public static function getAllowableEnumValues()
     {
         return [
-            self::DE
-            self::EN
-            self::FR
-            self::HR
-            self::HU
-            self::IT
-            self::RO
-            self::SK
-            self::US
+            self::DE,
+            self::EN,
+            self::FR,
+            self::HR,
+            self::HU,
+            self::IT,
+            self::RO,
+            self::SK,
+            self::US,
         ];
     }
 }
