@@ -54,10 +54,10 @@ class PaymentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::EXPIRED
-            self::NONE
-            self::OUTSTANDING
-            self::PAID
+            self::EXPIRED,
+            self::NONE,
+            self::OUTSTANDING,
+            self::PAID,
             self::PARTIALLY_PAID
         ];
     }
