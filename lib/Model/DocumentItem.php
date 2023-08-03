@@ -60,6 +60,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'name' => 'string',
         'unit_price_type'=> '\Swagger\Client\Model\UnitPriceType',
         'net_unit_amount' => 'float',
+        'unit_price' => 'float',
         'quantity' => 'float',
         'unit' => 'string',
         'net_amount' => 'float',
@@ -80,6 +81,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'name' => null,
         'unit_price_type' => null,
         'net_unit_amount' => 'float',
+        'unit_price' => 'float',
         'quantity' => 'float',
         'unit' => null,
         'net_amount' => 'float',
@@ -121,6 +123,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'name' => 'name',
         'unit_price_type' => 'unit_price_type',
         'net_unit_amount' => 'net_unit_amount',
+        'unit_price' => 'unit_price',
         'quantity' => 'quantity',
         'unit' => 'unit',
         'net_amount' => 'net_amount',
@@ -141,6 +144,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'name' => 'setName',
         'net_unit_amount' => 'setNetUnitAmount',
         'unit_price_type' => 'setUnitPriceType',
+        'unit_price' => 'setUnitPrice',
         'quantity' => 'setQuantity',
         'unit' => 'setUnit',
         'net_amount' => 'setNetAmount',
@@ -160,6 +164,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         'product_id' => 'getProductId',
         'name' => 'getName',
         'unit_price_type' => 'getUnitPriceType',
+        'unit_price' => 'getUnitPrice',
         'net_unit_amount' => 'getNetUnitAmount',
         'quantity' => 'getQuantity',
         'unit' => 'getUnit',
@@ -232,6 +237,7 @@ class DocumentItem implements ModelInterface, ArrayAccess
         $this->container['product_id'] = isset($data['product_id']) ? $data['product_id'] : null;
         $this->container['name'] = isset($data['name']) ? $data['name'] : null;
         $this->container['net_unit_amount'] = isset($data['net_unit_amount']) ? $data['net_unit_amount'] : null;
+        $this->container['unit_price'] = isset($data['unit_price']) ? $data['unit_price'] : null;
         $this->container['quantity'] = isset($data['quantity']) ? $data['quantity'] : null;
         $this->container['unit'] = isset($data['unit']) ? $data['unit'] : null;
         $this->container['net_amount'] = isset($data['net_amount']) ? $data['net_amount'] : null;
@@ -287,6 +293,30 @@ class DocumentItem implements ModelInterface, ArrayAccess
     public function setProductId($product_id)
     {
         $this->container['product_id'] = $product_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets product_id
+     *
+     * @return int
+     */
+    public function getUnitPrice()
+    {
+        return $this->container['unit_price'];
+    }
+
+    /**
+     * Sets product_id
+     *
+     * @param int $product_id product_id
+     *
+     * @return $this
+     */
+    public function setUnitPrice($unit_price)
+    {
+        $this->container['unit_price'] = $unit_price;
 
         return $this;
     }
