@@ -66,22 +66,22 @@ class DocumentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::ADVANCE
-            self::CANCELLATION
-            self::CERT_OF_COMPLETION
-            self::D_CERT_OF_COMPLETION
-            self::DOSSIER
-            self::DRAFT
-            self::DRAFT_OFFER
-            self::DRAFT_ORDER_FORM
-            self::DRAFT_WAYBILL
-            self::INVOICE
-            self::MODIFICATION
-            self::OFFER
-            self::ORDER_FORM
-            self::PROFORMA
-            self::RECEIPT
-            self::RECEIPT_CANCELLATION
+            self::ADVANCE,
+            self::CANCELLATION,
+            self::CERT_OF_COMPLETION,
+            self::D_CERT_OF_COMPLETION,
+            self::DOSSIER,
+            self::DRAFT,
+            self::DRAFT_OFFER,
+            self::DRAFT_ORDER_FORM,
+            self::DRAFT_WAYBILL,
+            self::INVOICE,
+            self::MODIFICATION,
+            self::OFFER,
+            self::ORDER_FORM,
+            self::PROFORMA,
+            self::RECEIPT,
+            self::RECEIPT_CANCELLATION,
             self::WAYBILL
         ];
     }
