@@ -74,30 +74,30 @@ class DocumentExportType
     public static function getAllowableEnumValues()
     {
         return [
-            self::ARMADA
-            self::AWS_BATCH
-            self::EX_PANDA
-            self::FORINTSOFT
-            self::HESSYN
-            self::IMA
-            self::INFOTEKA
-            self::KULCS_KONYV
-            self::MAXITAX
-            self::NAGY_MACHINATOR
-            self::NAV_PTGSZLAH
-            self::NAV_STATUS
-            self::NAV_XML
-            self::NAV_XML_ALIAS
-            self::NOVITAX
-            self::PROFORMA_OUTSTANDING
-            self::RELAX
-            self::RLB
-            self::RLB60
-            self::RLB_DOUBLE_ENTRY
-            self::SIMPLE_CSV
-            self::SIMPLE_EXCEL
-            self::SIMPLE_EXCEL_ITEMS
-            self::TENSOFT
+            self::ARMADA,
+            self::AWS_BATCH,
+            self::EX_PANDA,
+            self::FORINTSOFT,
+            self::HESSYN,
+            self::IMA,
+            self::INFOTEKA,
+            self::KULCS_KONYV,
+            self::MAXITAX,
+            self::NAGY_MACHINATOR,
+            self::NAV_PTGSZLAH,
+            self::NAV_STATUS,
+            self::NAV_XML,
+            self::NAV_XML_ALIAS,
+            self::NOVITAX,
+            self::PROFORMA_OUTSTANDING,
+            self::RELAX,
+            self::RLB,
+            self::RLB60,
+            self::RLB_DOUBLE_ENTRY,
+            self::SIMPLE_CSV,
+            self::SIMPLE_EXCEL,
+            self::SIMPLE_EXCEL_ITEMS,
+            self::TENSOFT,
             self::TENSOFT_29_DOT_65
         ];
     }

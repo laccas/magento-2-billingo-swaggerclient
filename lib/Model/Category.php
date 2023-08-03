@@ -56,12 +56,12 @@ class Category
     public static function getAllowableEnumValues()
     {
         return [
-            self::ADVERTISEMENT
-            self::DEVELOPMENT
-            self::OTHER
-            self::OVERHEADS
-            self::SERVICE
-            self::STOCK
+            self::ADVERTISEMENT,
+            self::DEVELOPMENT,
+            self::OTHER,
+            self::OVERHEADS,
+            self::SERVICE,
+            self::STOCK,
             self::TANGIBLE_ASSETS
         ];
     }

@@ -71,27 +71,27 @@ class Feature
     public static function getAllowableEnumValues()
     {
         return [
-            self::API_LIMIT_BASIC
-            self::API_LIMIT_PRO
-            self::API_LIMIT_STANDARD
-            self::BANKSYNC_PLUS
-            self::CAMPAIGN_MANAGER_BASIC
-            self::CAMPAIGN_MANAGER_STANDARD
-            self::CEGINFO_ENTERPRISE
-            self::CEGINFO_PRO
-            self::CEGINFO_STANDARD
-            self::INNOVATOR
-            self::LIMIT_INCREASE
-            self::MASTER
-            self::PARTNERMONITOR_BASIC
-            self::PARTNERMONITOR_PRO
-            self::PARTNERMONITOR_STANDARD
-            self::SOFTPOS
-            self::SUBSCRIPTION_BASIC
-            self::SUBSCRIPTION_PRO
-            self::SUBSCRIPTION_STANDARD
-            self::TENDERMONITOR_STANDARD
-            self::TENDERMONITOR_VIP
+            self::API_LIMIT_BASIC,
+            self::API_LIMIT_PRO,
+            self::API_LIMIT_STANDARD,
+            self::BANKSYNC_PLUS,
+            self::CAMPAIGN_MANAGER_BASIC,
+            self::CAMPAIGN_MANAGER_STANDARD,
+            self::CEGINFO_ENTERPRISE,
+            self::CEGINFO_PRO,
+            self::CEGINFO_STANDARD,
+            self::INNOVATOR,
+            self::LIMIT_INCREASE,
+            self::MASTER,
+            self::PARTNERMONITOR_BASIC,
+            self::PARTNERMONITOR_PRO,
+            self::PARTNERMONITOR_STANDARD,
+            self::SOFTPOS,
+            self::SUBSCRIPTION_BASIC,
+            self::SUBSCRIPTION_PRO,
+            self::SUBSCRIPTION_STANDARD,
+            self::TENDERMONITOR_STANDARD,
+            self::TENDERMONITOR_VIP,
             self::WHITELABEL
         ];
     }

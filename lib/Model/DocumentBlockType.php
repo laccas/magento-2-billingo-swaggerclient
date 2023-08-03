@@ -56,12 +56,12 @@ class DocumentBlockType
     public static function getAllowableEnumValues()
     {
         return [
-            self::CERTIFICATE_OF_COMPLETION
-            self::DOSSIER
-            self::INVOICE
-            self::OFFER
-            self::ORDER_FORM
-            self::RECEIPT
+            self::CERTIFICATE_OF_COMPLETION,
+            self::DOSSIER,
+            self::INVOICE,
+            self::OFFER,
+            self::ORDER_FORM,
+            self::RECEIPT,
             self::WAYBILL
         ];
     }

@@ -52,8 +52,8 @@ class DocumentExportOtherOptions
     public static function getAllowableEnumValues()
     {
         return [
-            self::ALL
-            self::EXPIRED
+            self::ALL,
+            self::EXPIRED,
             self::OUTSTANDING
         ];
     }

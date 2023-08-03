@@ -52,8 +52,8 @@ class DocumentExportSortBy
     public static function getAllowableEnumValues()
     {
         return [
-            self::FULFILLMENT_DATE
-            self::INVOICE_DATE
+            self::FULFILLMENT_DATE,
+            self::INVOICE_DATE,
             self::INVOICE_RAW_NUMBER
         ];
     }

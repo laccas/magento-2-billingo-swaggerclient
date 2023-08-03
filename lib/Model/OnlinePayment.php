@@ -53,9 +53,9 @@ class OnlinePayment
     public static function getAllowableEnumValues()
     {
         return [
-            self::EMPTY
-            self::BARION
-            self::SIMPLE_PAY
+            self::EMPTY,
+            self::BARION,
+            self::SIMPLE_PAY,
             self::NO
         ];
     }

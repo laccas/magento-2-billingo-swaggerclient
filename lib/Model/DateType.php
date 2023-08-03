@@ -52,8 +52,8 @@ class DateType
     public static function getAllowableEnumValues()
     {
         return [
-            self::DUE_DATE
-            self::FULFILLMENT_DATE
+            self::DUE_DATE,
+            self::FULFILLMENT_DATE,
             self::INVOICE_DATE
         ];
     }

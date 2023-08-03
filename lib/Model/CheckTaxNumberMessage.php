@@ -54,10 +54,10 @@ class CheckTaxNumberMessage
     public static function getAllowableEnumValues()
     {
         return [
-            self::EXTERNAL_NAV_SERVICE_UNREACHABLE
-            self::INVALID_TAX_NUMBER
-            self::NO_ONLINE_SZAMLA_SETTINGS
-            self::NON_EXIST_TAX_NUMBER
+            self::EXTERNAL_NAV_SERVICE_UNREACHABLE,
+            self::INVALID_TAX_NUMBER,
+            self::NO_ONLINE_SZAMLA_SETTINGS,
+            self::NON_EXIST_TAX_NUMBER,
             self::VALIDATION_OK
         ];
     }

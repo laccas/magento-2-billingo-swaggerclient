@@ -51,7 +51,7 @@ class DocumentExportQueryType
     public static function getAllowableEnumValues()
     {
         return [
-            self::FULFILLMENT_DATE
+            self::FULFILLMENT_DATE,
             self::INVOICE_DATE
         ];
     }

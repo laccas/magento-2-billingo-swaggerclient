@@ -52,8 +52,8 @@ class DocumentFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::EMPTY
-            self::ELECTRONIC
+            self::EMPTY,
+            self::ELECTRONIC,
             self::TRADITIONAL
         ];
     }

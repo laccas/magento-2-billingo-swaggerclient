@@ -51,7 +51,7 @@ class DocumentForm
     public static function getAllowableEnumValues()
     {
         return [
-            self::ELECTRONIC
+            self::ELECTRONIC,
             self::PAPER
         ];
     }

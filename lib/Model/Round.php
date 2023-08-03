@@ -53,9 +53,9 @@ class Round
     public static function getAllowableEnumValues()
     {
         return [
-            self::FIVE
-            self::NONE
-            self::ONE
+            self::FIVE,
+            self::NONE,
+            self::ONE,
             self::TEN
         ];
     }

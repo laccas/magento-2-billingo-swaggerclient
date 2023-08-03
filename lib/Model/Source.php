@@ -52,8 +52,8 @@ class Source
     public static function getAllowableEnumValues()
     {
         return [
-            self::ALL
-            self::MANUAL
+            self::ALL,
+            self::MANUAL,
             self::NAV
         ];
     }
