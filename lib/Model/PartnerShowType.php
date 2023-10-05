@@ -52,8 +52,8 @@ class PartnerShowType
     public static function getAllowableEnumValues()
     {
         return [
-            self::ALL
-            self::INCOMING
+            self::ALL,
+            self::INCOMING,
             self::OUTGOING
         ];
     }

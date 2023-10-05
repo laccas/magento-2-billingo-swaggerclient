@@ -52,8 +52,8 @@ class DontSendToNavReason
     public static function getAllowableEnumValues()
     {
         return [
-            self::FOREIGN
-            self::OSS
+            self::FOREIGN,
+            self::OSS,
             self::OTHER
         ];
     }
