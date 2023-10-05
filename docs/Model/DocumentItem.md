@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **vat_amount** | **float** |  | [optional] 
 **entitlement** | [**\Swagger\Client\Model\Entitlement**](Entitlement.md) |  | [optional] 
 **comment** | **string** |  | [optional] 
+**sku** | **string** |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

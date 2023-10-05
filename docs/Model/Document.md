@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **invoice_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **fulfillment_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **due_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**paid_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**paid_date** | [**\DateTime**](\DateTime.md) | If payment_status equals &#x27;paid&#x27; or &#x27;partially_paid&#x27;, it will show the paid date otherwise the current date. | [optional] 
 **organization** | [**\Swagger\Client\Model\DocumentOrganization**](DocumentOrganization.md) |  | [optional] 
 **partner** | [**\Swagger\Client\Model\Partner**](Partner.md) |  | [optional] 
 **document_partner** | [**\Swagger\Client\Model\DocumentPartner**](DocumentPartner.md) |  | [optional] 
@@ -32,6 +32,7 @@ Name | Type | Description | Notes
 **related_documents** | [**\Swagger\Client\Model\DocumentAncestor[]**](DocumentAncestor.md) |  | [optional] 
 **discount** | [**\Swagger\Client\Model\Discount**](Discount.md) |  | [optional] 
 **correction_type** | [**\Swagger\Client\Model\CorrectionType**](CorrectionType.md) |  | [optional] 
+**recurring_id** | **int** |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

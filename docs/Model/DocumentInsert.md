@@ -22,6 +22,7 @@ Name | Type | Description | Notes
 **advance_invoice** | **int[]** |  | [optional] 
 **discount** | [**\Swagger\Client\Model\Discount**](Discount.md) |  | [optional] 
 **instant_payment** | **bool** |  | [optional] 
+**instant_payment_request** | [**OneOfDocumentInsertInstantPaymentRequest**](OneOfDocumentInsertInstantPaymentRequest.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
