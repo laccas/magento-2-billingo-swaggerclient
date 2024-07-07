@@ -66,7 +66,7 @@ class DocumentPartner implements ModelInterface, ArrayAccess
         'account_number' => 'string',
         'phone' => 'string',
         'tax_type' => '\Swagger\Client\Model\PartnerTaxType',
-        'partner_shipping' => 'OneOfDocumentPartnerPartnerShipping'
+        'partner_shipping' => '\Swagger\Client\Model\OneOfDocumentPartnerPartnerShipping'
     ];
 
     /**

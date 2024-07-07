@@ -69,10 +69,10 @@ class Partner implements ModelInterface, ArrayAccess
         'tax_type' => '\Swagger\Client\Model\PartnerTaxType',
         'custom_billing_settings' => '\Swagger\Client\Model\PartnerCustomBillingSettings',
         'group_member_tax_number' => 'string',
-        'giro_settings' => 'OneOfPartnerGiroSettings',
-        'partner_shipping' => 'OneOfPartnerPartnerShipping',
+        'giro_settings' => '\Swagger\Client\Model\OneOfPartnerGiroSettings',
+        'partner_shipping' => '\Swagger\Client\Model\OneOfPartnerPartnerShipping',
         'internal_comment' => 'string',
-        'partner_show_type' => 'OneOfPartnerPartnerShowType'
+        'partner_show_type' => '\Swagger\Client\Model\OneOfPartnerPartnerShowType'
     ];
 
     /**

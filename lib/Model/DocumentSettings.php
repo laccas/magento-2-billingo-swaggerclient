@@ -62,12 +62,12 @@ class DocumentSettings implements ModelInterface, ArrayAccess
         'should_send_email' => 'bool',
         'round' => '\Swagger\Client\Model\Round',
         'no_send_onlineszamla_by_user' => 'bool',
-        'dont_send_to_nav_reason' => 'OneOfDocumentSettingsDontSendToNavReason',
+        'dont_send_to_nav_reason' => '\Swagger\Client\Model\OneOfDocumentSettingsDontSendToNavReason',
         'order_number' => 'string',
         'place_id' => 'int',
         'instant_payment' => 'bool',
         'selected_type' => '\Swagger\Client\Model\DocumentType',
-        'instant_payment_request' => 'OneOfDocumentSettingsInstantPaymentRequest'
+        'instant_payment_request' => '\Swagger\Client\Model\OneOfDocumentSettingsInstantPaymentRequest'
     ];
 
     /**

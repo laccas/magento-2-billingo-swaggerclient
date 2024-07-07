@@ -75,7 +75,7 @@ class DocumentInsert implements ModelInterface, ArrayAccess
         'advance_invoice' => 'int[]',
         'discount' => '\Swagger\Client\Model\Discount',
         'instant_payment' => 'bool',
-        'instant_payment_request' => 'OneOfDocumentInsertInstantPaymentRequest'
+        'instant_payment_request' => '\Swagger\Client\Model\OneOfDocumentInsertInstantPaymentRequest'
     ];
 
     /**

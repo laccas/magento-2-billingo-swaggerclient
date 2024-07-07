@@ -59,7 +59,7 @@ class PartnerShipping implements ModelInterface, ArrayAccess
         'match' => 'bool',
         'name' => 'string',
         'mode' => '\Swagger\Client\Model\ShippingMode',
-        'address' => 'OneOfPartnerShippingAddress'
+        'address' => '\Swagger\Client\Model\OneOfPartnerShippingAddress'
     ];
 
     /**
